@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Perritos</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="stylesRegistrarPerro.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FormConsultarPerro.html">Consultar</a>
+          </li>
+    
+        </ul>
+    </nav>
+<section class="form-register">
+    <form action="Registrar_perro.php" method="POST" enctype="multipart/form-data">
+        <h1>Sistema de Identificación Perruno</h1>
+        Ingresar Código<br>
+        <br><p><Input class="controls" name = "Codigo" Type Text></p>
+        Ingresar Nombre<br>
+        <br><p><Input class="controls" name = "Nombre" Type Text></p>
+        Fecha de Nacimiento<br>
+        <br><p><Input class="controls" name= "FechNac" Type = "Date"></p>
+        Género<br>
+        <br><p><Input class="controls1" name="Genero" Type = "Radio" Value=1> Macho</p>
+        <br><p><Input class="controls1" name= "Genero" Type = "Radio" Value=0> Hembra</p><br>
+        Seleccione Raza<br>
+        <br><Select name = "Raza" class="controls"><br>
+            <Option value = "Pitbull"> Pitbull
+            <Option value = "Bulldog"> Bulldog
+            <Option value = "Shichu"> Shichu
+            <Option value = "Pequines"> Pequines
+            <Option value = "San Bernardo"> San Bernardo
+            <Option value = "Chiguahua"> Chiguahua
+        <p></Select></p>
+        Subir Foto<br>
+        <br><Input class="controls" Type = "file" name = "Foto"><br><br>
+        <Input class="boton" name= "Registrar" Type = Submit value = "Registrar">
+        <p><Input class="boton" Type = reset value = "Borrar Datos"></a></p>
+    </form>  
+</section>    
+</body>
+</html>

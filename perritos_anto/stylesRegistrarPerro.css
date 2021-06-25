@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('fondo/fondo.jpg');
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'calibri';
+}
+
+.nav-item {
+    float: left;
+    font-family: 'calibri';
+}
+
+.nav-item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'calibri';
+}
+
+.nav-item a:hover{
+    background-color: #111;
+    font-family: 'calibri';
+}
+
+.form-register {
+    width: 500px;
+    background: #333;
+    padding: 35px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #7a7b7c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #223a7c;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: white;
+}
+
+.form-register .boton {
+    width: 100%;
+    background: #2d4380;
+    border-radius: 4px;
+    border: 1px solid #2d4380;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'calibri';
+    font-size: 16px;
+    color:#fff;
+}
